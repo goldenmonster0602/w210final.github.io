@@ -15,7 +15,7 @@ Our data comprises of over 164,000 pre-processed reviews, acquired and used with
 
 **Lessons Learned**
 
-For this project, we used Latent Dirichlet Allocation (LDA), which is a algorithms used to discover the topics that are present in a corpus. Uniform Manifold Approximation and Projection (UMAP) is a dimension reduction technique that can be used for visualisation. similar with t-SNE.  We also incorporated with Word2Vec, it provides direct access to vector representations of words, which can help achieve decent performance across a variety of tasks. We also tried several methods that unfortunately didn't work out for us, here is a few :
+For this project, we used Latent Dirichlet Allocation (LDA), which is an algorithm used to discover the topics that are present in a corpus of words. Uniform Manifold Approximation and Projection (UMAP) is a dimension reduction technique that can be used for visualisation. similar with t-SNE.  We also incorporated with Word2Vec, which computes vector representations of words, to help us visualize topics over time. There were a few methods that we tried that ended up not working as well as the ones listed above:
 
 
 *K-means cluster*: The K-means clustering algorithm is used to find groups which have not been explicitly labeled in the data and to find patterns and make better decisions. However it didn't work with our data.
