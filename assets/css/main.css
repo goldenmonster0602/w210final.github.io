@@ -11,6 +11,7 @@
 
 .horizontal {
   float: left;
+	position:relative;
  width: 30px;
 }
 
