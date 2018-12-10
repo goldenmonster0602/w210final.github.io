@@ -50,12 +50,17 @@
 								<p>Some previous products focus on identifying users’ major concerns or preferences from  app reviews. However, the issues are neither identified automatically nor studied online. There also exists some product focusing on analyzing the parts of apps that are loved by users. Different from previous efforts, our work aims to detect the emerging issues automatically and dynamically. Moreover, we present app issues in an interactive and comprehensible manner.</p>
 								<h2 id="start3">Exploratory Data Analysis</h2>
 								<p><strong>About the data set</strong></p>
-								<p>Our data set contains user reviews on Google Play for Viber. Below is a sample of the data set, where:<br />
-								<strong>Rating</strong>: star ratings on Google Play, ranging from 1 - 5, the higher the better.<br />
-								<strong>Review</strong>: user review text.<br />
-								<strong>Date</strong>: in the format of month-date.<br />
-								<strong>Version</strong>: app version that the user was on at the time of writing the review.</p>
-								
+								<p>Our data set contains user reviews on Google Play for Viber. Below is a sample of the data set, where:<br /></p>
+								&nbsp;&nbsp;&nbsp;&nbsp;<strong>Rating</strong>: star ratings on Google Play, ranging from 1 - 5, the higher the better.<br />
+								&nbsp;&nbsp;&nbsp;&nbsp;<strong>Review</strong>: user review text.<br />
+								&nbsp;&nbsp;&nbsp;&nbsp;<strong>Date</strong>: in the format of month-date.<br />
+								&nbsp;&nbsp;&nbsp;&nbsp;<strong>Version</strong>: app version that the user was on at the time of writing the review.</p>
+								<img src="EDA_visualizations/data_sample.png" alt="HTML5 Icon" width="860" >
+								<p><strong>Review count by app version</strong></p>
+								<p>Our data set has 8 distinct app versions and some have more reviews than others. This is likely due to the time period when this data was pulled. For example, if the data was pulled when version 5.3.0.2339 was in production, this version would have the most number of users, hence the most number of reviews.</p>
+								<p>Therefore, it makes sense to look at the rating distribution for each version by percentage rather than by count.</p>
+								<img src="EDA_visualizations/Viber_review_count_by_version.png" alt="HTML5 Icon" width="860" ><br />
+								<p><strong>Rating distribution by app version</strong></p>
 								
 								
 								
