@@ -9,4 +9,4 @@ For each app, this script will load review data from text files, train a Word2Ve
 
 **gui.py**
 
-After the Word2Vec model files and reviews have been saved, the app can be run using a bokeh server (*bokeh serve gui.py*).
+After the Word2Vec model files and reviews have been saved, the app can be run using a bokeh server - for example, with the command *bokeh serve gui.py*.
