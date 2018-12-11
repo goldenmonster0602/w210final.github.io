@@ -27,9 +27,7 @@ For this project, we used Latent Dirichlet Allocation (LDA), which is an algorit
 
 [PCoA Page](https://github.com/samird121/w210-app-review-capstone/blob/master/new_scraped_reviews/YuboClusteringtesting.ipynb)
 
-*Word2Vec alternatives such as Doc2Vec, Sense2Vec*
-
-Doc2Vec and Sense2Vec are extensions on the Word2Vec methodology that attempt to model more sophisticated relationships, such as document-level vector representations beyond simply averaging the word vectors, or different vectors for the same word with different meanings. We attempted to implement them but found the models did not perform well due to the nature of the review data, including its messiness, wide variety of length, and sparsity. More sophisticated word embeddings require more data and ideally cleaner data, and we ultmately decided that Word2Vec was suitable for the goals of our project.
+*Word2Vec alternatives such as Doc2Vec, Sense2Vec:* Doc2Vec and Sense2Vec are extensions on the Word2Vec methodology that attempt to model more sophisticated relationships, such as document-level vector representations beyond simply averaging the word vectors, or different vectors for the same word in different contexts. We attempted to implement them but found the models did not perform well due to the nature of the review data, including its messiness, wide variety of length, and sparsity (relative to the corpuses on which these methods do work well). More sophisticated word embeddings require more data and ideally cleaner data, and we ultmately decided that Word2Vec was suitable for the goals of our project.
 
 
 
