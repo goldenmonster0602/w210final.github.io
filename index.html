@@ -97,7 +97,8 @@
 								<img src="EDA_visualizations/Viber_ratings_over_time.png" alt="HTML5 Icon" width="860" ><br />-->
 								<h2 id="ITS">Interactive Topic Search</h2>
 								<p><strong>LDA</strong></p>
-								<p>Latent Dirichlet Allocation is a generative probabilistic model of a collection of composites made up of parts. In terms of topic modeling, the composites are documents and the parts are words and/or phrases.  LDA is an unsupervised machine learning method that helps us discover hidden semantic structures, allows us to learn topic representations. </p>
+								<p>Latent Dirichlet Allocation (LDA) is a generative probabilistic model of a collection of composites made up of parts. In terms of topic modeling, the composites are documents and the parts are words and/or phrases.  LDA is an unsupervised machine learning method that helps us discover hidden semantic structures, allows us to learn topic representations. </p>
+								<p>Below we visualized our results from our best LDA model from the reviews for app version 5.3.0.2274. There are two distinct topics, with the top terms for each. With this visualization, it is now crystal clear what the issue was for this app version - The vibration will not turn off.</p>
 							</font>
 						</div>
 					</div>
@@ -105,10 +106,11 @@
 					<div class="container 75%">
 						<div class="row 200%">
 							<font size="4">
-								<p>Each of the topics can be visualized in the following word clouds. </p>
+								<p>Each of the topics can also be visualized in the following wordclouds. While one topic is about the vibration problem with this new app update, the other is about all the great ways Viber was good for other users, with some mentioning of other smaller problems.</p>
 								<img src="lda_word_cloud.png" alt="HTML5 Icon" width="860" ><br /><br />
 								<p><strong>UMAP</strong></p>
-								<p>Uniform Manifold Approximation and Projection (UMAP) is a dimension reduction technique that can be used for visualisation. Similar with t-SNE. </p>
+								<p>Uniform Manifold Approximation and Projection (UMAP) is a dimension reduction technique that can be great for visualizing multi-dimentional data on a 2D plane.</p>
+								<p> Below is an example of how we were able to obtain the best results for unsupervised methods by combining the results from our LDA model with UMAP projection. While UMAP helps to visualize our sophisticated and unstructured app review data with a scatterplot on a 2D plane, the LDA model help us to colorcode each of the points with the predictions. Users can easily spot how prevalent the  vibration issue was with this app version - virtually, half of the reviews for this version was about this problem! </p>
 							</font>
 						</div>
 					</div>
